@@ -1,0 +1,21 @@
+name: PlayerTagger
+description: A plugin that helps staff by giving them a useful interface to mark players that cause trouble to deal with them later due to lack of time.
+version: 1.0
+author: NathanApes
+
+main: nathan.apes.pltag.main.Main
+
+commands: 
+  
+  tagmenu: 
+    description: Opens the tagging menu.
+    usage: /menu
+    
+  listtags: 
+    description: List the tagged players.
+    usage: /list
+    
+  cleartags: 
+    description: Clears all tag entries.
+    usage: /cleartags
+    
